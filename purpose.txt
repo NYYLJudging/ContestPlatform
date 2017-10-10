@@ -1,1 +1,6 @@
-The purpose of this contest platform application is to make results calculations seamless - instead of having to read and write scores from written on sheets, which can lead to misinterpretation of values and extra time consumption, having everything being networked through computers will make the process exact, quick, and reliable. 
+They purpose of this contest platform application is to make results calculations seamless - instead of having to read and write scores from written on sheets, which can lead to misinterpretation of values and extra time consumption, having everything being networked through computers will make the process exact, quick, and reliable.
+
+Changing this file around
+hey colin
+wow
+sick
