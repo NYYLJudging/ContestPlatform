@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  NameofContest: MyString
+  ContestLevel: MyString
+  ContestLocation: MyString
+  NumberOfPlayers: 
+
+two:
+  NameofContest: MyString
+  ContestLevel: MyString
+  ContestLocation: MyString
+  NumberOfPlayers: 
