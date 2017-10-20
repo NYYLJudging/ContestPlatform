@@ -4,7 +4,7 @@ class CreateContests < ActiveRecord::Migration[5.1]
       t.string :NameofContest
       t.string :ContestLevel
       t.string :ContestLocation
-      t.int :NumberOfPlayers
+      t.string :NumberOfPlayers
 
       t.timestamps
     end
