@@ -6,25 +6,25 @@
   Generate New Contest
 </h1>
 
-<%= form_with scope: :article, url: contests_path, local: true do |form| %>
+<%= form_with scope: :contest, url: contests_path, local: true do |form| %>
 <p>
-  <%= form.label :NameofContest%><br>
+  <%= form.label :"Contest Name"%><br>
   <%= form.text_field :NameofContest %>
 </p>
 
 <p>
-  <%= form.label :ContestLevel %><br>
-  <%= form.text_area :ContestLevel %>
+  <%= form.label :"Level of Contest" %><br>
+  <%= form.text_field :ContestLevel %>
 </p>
 
 <p>
-  <%= form.label :ContestLocation%><br>
-  <%= form.text_area :ContestLocation %>
+  <%= form.label :"Contest Location"%><br>
+  <%= form.text_field :ContestLocation %>
 </p>
 
 <p>
-  <%= form.label :NumberOfPlayers %><br>
-  <%= form.text_area :NumberOfPlayers %>
+  <%= form.label :"Number Of Players"%><br>
+  <%= form.text_field :NumberOfPlayers %>
 </p>
 
 <p>
