@@ -1,0 +1,22 @@
+<h1>List of Contests</h1>
+
+<table>
+  <tr>
+    <th>Contest Name</th>
+    <th>Contest Level</th>
+    <th>Contest Location</th>
+    <th>Number of Players</th>
+  </tr>
+
+  <% @contests.each do |contest| %>
+  <tr>
+    <td><%=contest.NameofContest%></td>
+    <td><%= contest.ContestLevel%></td>
+    <td><%= contest.ContestLocation%></td>
+    <td><%= contest.NumberOfPlayers%></td>
+    <td>
+      <% link_to 'Show', contest_path(contest)%>
+    </td>
+  </tr>
+  <%end%>
+</table>
