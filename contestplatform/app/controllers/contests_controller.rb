@@ -11,7 +11,14 @@ class ContestsController < ApplicationController
   end
 
   def create
-    render plain: params[:contest].inspect
+    @contest = Contest.new(contest_params)
+
+    @contest.save
+    redirect_to @contest
   end
 
+private
+  def contest_params
+    params.require(:contest).permit(:NameofContest, :ContestLevel, :ContestLocation, :NumberOfPlayers)
+  end
 end
