@@ -22,8 +22,9 @@ Things you may want to cover:
   Runs on "http://localhost3000"
 
 * Deployment instructions
-  Currently, In order to run the Contest Platform, you must navigate to the "contestplatform" folder in this Repo (if you're reading this you're probably there already!)
 
-  type "bin/rails server" to set up the localhost server on port 3000. Navigate to "http://localhost3000" in order to see the application.
+Currently, In order to run the Contest Platform, you must navigate to the "contestplatform" folder in this Repo (if you're reading this you're probably there already!)
+
+Type "bin/rails server" to set up the localhost server on port 3000. Navigate to "http://localhost3000" in order to see the application.
 
 * ...
